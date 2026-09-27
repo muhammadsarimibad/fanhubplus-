@@ -1,0 +1,9 @@
+# Local tooling / IDE state
+.claude/
+
+# Real API keys — copy config/secrets.example.php to config/secrets.php locally
+config/secrets.php
+
+# User-uploaded content (profile pictures) — personal, not source code
+assets/uploads/*
+!assets/uploads/.gitkeep
